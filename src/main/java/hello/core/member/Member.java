@@ -4,7 +4,8 @@ public class Member {
     private Long id;
     private String name;
     private Grade grade;
-// command + N
+
+    // command + N
     public Member(Long id, String name, Grade grade) {
         this.id = id;
         this.name = name;
@@ -23,6 +24,7 @@ public class Member {
         return name;
     }
 
+    
     public void setName(String name) {
         this.name = name;
     }
